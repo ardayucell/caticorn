@@ -1,0 +1,215 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  position: relative;
+}
+
+h1 {
+  margin: 0px auto;
+  padding-top: 6rem;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #FF87CA;
+}
+
+hr {
+  border-top: 0.5rem dotted #EAF6F6;
+  border-bottom: 0;
+  width: 5%;
+  margin: 25px auto;
+}
+
+.topcontainer {
+  background-color: #FFC4E1;
+}
+
+.top_first_img {
+  width: 5.5%;
+  height: 5.5%;
+  position: absolute;
+  right: 230px;
+  top: 75px;
+}
+
+.top_second_img {
+  width: 5.5%;
+  height: 5.5%;
+  position: absolute;
+  left: 230px;
+  top: 75px;
+}
+
+.maincat {
+  width: 25%;
+  height: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caticornDescription {
+    font-size: 2.3125rem;
+    margin: 0px auto;
+    padding-bottom: 4rem;
+    color: #FF87CA;
+    font-weight: normal;
+}
+
+.super {
+  text-decoration: underline;
+}
+
+/***********************Above is the first part *********************/
+/**********************Mid Part of Page ***********************/
+
+.midcontainer_fistcatimg {
+  border-radius: 100%;
+  background-color: #EFEFEF;
+  width: 15%;
+  height: 15%;
+  margin: 2rem auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #FF87CA;
+}
+
+.description_main {
+  width: 25%;
+  margin: 3rem auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #E78EA9;
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+}
+
+.midcontainer_cat_1 {
+  width: 16.5%;
+  float: left;
+  padding-right: 1.875rem;
+}
+
+.midcontainer_cat_2 {
+  width: 16.5%;
+  float: right;
+  padding-left: 1.875rem;
+}
+
+.midcontainer_cat_3 {
+  width: 16.5%;
+  float: left;
+  padding-right: 1.875rem;
+}
+
+.midcontainer_cat_4 {
+  width: 16.5%;
+  float: right;
+  padding-left: 1.875rem;
+}
+
+.midcontainer {
+  color: #40514E;
+}
+
+.bottomcontainer {
+  color: #40514E;
+  padding: 10px auto 0 auto;
+  margin: 0;
+}
+
+.get_in_touch {
+  margin: 3rem;
+}
+
+.get_in_touch_description {
+  margin: 2.5rem auto 2.5rem auto;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_part {
+  background-color: #FFC4E1;
+  margin: 0;
+  padding: 0;
+}
+
+.footer_title {
+  font-size: 2rem;
+  margin: 2rem auto 2rem auto;
+}
+
+.copy {
+  margin: 30px auto 0 auto;
+}
+
+.footer_description {
+  margin: 0 auto 2.5rem auto;
+}
+
+.btn {
+  background: #FF87CA;
+  background-image: -webkit-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: -moz-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: -ms-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: -o-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: linear-gradient(to bottom, #FF87CA, #CE49BF);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFC4E1;
+  background-image: -webkit-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: -moz-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: -ms-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: -o-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: linear-gradient(to bottom, #FFC4E1, #FFBDE6);
+  text-decoration: none;
+}
+
+.btnn {
+  background: #FF87CA;
+  background-image: -webkit-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: -moz-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: -ms-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: -o-linear-gradient(top, #FF87CA, #CE49BF);
+  background-image: linear-gradient(to bottom, #FF87CA, #CE49BF);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnn:hover {
+  background: #FFC4E1;
+  background-image: -webkit-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: -moz-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: -ms-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: -o-linear-gradient(top, #FFC4E1, #FFBDE6);
+  background-image: linear-gradient(to bottom, #FFC4E1, #FFBDE6);
+  text-decoration: none;
+}

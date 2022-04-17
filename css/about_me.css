@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%
+  color: #40514E;
+  line-height: 2;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  /*line-height: 2;*/
+  font-size: 5.625rem; /*100% = 16px = 1em*/
+  /*it's better to use %/em if user is changing the size of their browser, our adjustment will be dynamic!*/
+  /*em/% are inherited. they are summing up with additional parenting on top each other! rem behaves like px*/
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  color: #40514E;
+}
+
+hr{
+  border-top: 0.5rem dotted #EAF6F6;
+  border-bottom: 0rem;
+  border-left: 0rem;
+  border-right: 0rem;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 1rem;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 400px
+}
+
+.skill-row{
+  width: 50%;
+  margin: 6.25rem auto;
+  text-align: left;
+
+}
+
+.html_img {
+  width: 25%;
+  float: left;
+  padding-right: 1.875rem;
+}
+
+.css_img {
+  width: 25%;
+  float: right;
+  padding-left: 1.875rem;
+}
+
+.coding_img {
+  width: 25%;
+  float: left;
+  padding-right: 1.875rem;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  margin: 2rem 0rem 0rem 0rem;
+  font-size: 0.75rem;
+
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 3rem;
+}
+
+.profile {
+  margin: 3rem;
+}
+
+.hello {
+  margin: 3rem;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me-description {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
